@@ -86,19 +86,19 @@ NeoCharge-FrontEnd/
 ├── package.json
 └── README.md
 ```
-setup:
-  prerequisites:
-    - Node.js
-    - npm
-  steps:
-    - git clone https://github.com/karthikpadarthi/NeoCharge-FrontEnd.git
-    - cd NeoCharge-FrontEnd
-    - npm install
-    - npm run dev
-  local_url: http://localhost:5173
+### Setup:
+prerequisites:
+  - Node.js
+  - npm
+steps:
+  - git clone https://github.com/karthikpadarthi/NeoCharge-FrontEnd.git
+  - cd NeoCharge-FrontEnd
+  - npm install
+  - npm run dev
+local_url: http://localhost:5173
 
-environment_variables:
-  VITE_API_BASE_URL: http://localhost:8080
+### Environment Variables:
+VITE_API_BASE_URL: http://localhost:8080
 
 future_enhancements:
   - Map-based charging station visualization
